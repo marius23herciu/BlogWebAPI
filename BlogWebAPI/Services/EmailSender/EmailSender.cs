@@ -31,8 +31,8 @@ namespace BlogWebAPI.Services.EmailSender
             string emailSubject = "MyBlog Subscription Activated!";
 
             var mail = "myblog.test00@gmail.com";
-            var password = "yrzyppydnfwtgjao";
-            //var password = "MyBlog@00";
+            var password = "";
+            //var password = "";
 
             MailMessage email = new MailMessage();
             email.From = new MailAddress(mail);
@@ -68,8 +68,8 @@ namespace BlogWebAPI.Services.EmailSender
             string emailSubject = "New MyBlog article!";
 
             var mail = "myblog.test00@gmail.com";
-            var password = "yrzyppydnfwtgjao";
-            //var password = "MyBlog@00";
+            var password = "";
+            //var password = "";
 
             MailMessage email = new MailMessage();
             email.From = new MailAddress(mail);

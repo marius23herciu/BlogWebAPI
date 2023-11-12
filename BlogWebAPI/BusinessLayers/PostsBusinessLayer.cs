@@ -154,7 +154,7 @@ namespace BlogWebAPI.BusinessLayers
             post.ImageData = fileData;
             post.Excerpt = postFromFrontend.Excerpt;
             post.Content = postFromFrontend.Content;
-            //post.CreatedAt = DateTime.Now;
+            post.CreatedAt = DateTime.Now;
 
             await dbContext.SaveChangesAsync();
 
